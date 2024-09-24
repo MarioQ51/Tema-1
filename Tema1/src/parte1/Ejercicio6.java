@@ -18,6 +18,7 @@ public class Ejercicio6 {
 
 	        // Mostrar los resultados
 	        System.out.println("La longitud de la circunferencia es: " + longitud);
+
 	        System.out.println("El área de la circunferencia es: " + area);
 	    }
 	}
