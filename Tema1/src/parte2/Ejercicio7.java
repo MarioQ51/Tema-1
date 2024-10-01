@@ -5,17 +5,24 @@ import java.util.Scanner;
 public class Ejercicio7 {
 
 	public static void main(String[] args) {
-		//Declaramos constantes de las entradas
+		//Declaramos constantes de las entradas infantiles
 		final double ENTRADA_INF;
+		//Declaramos constantes de las entradas adultas
 		final int ENTRADA_ADU;
+		//Declaramos constantes del descuento
 		final double DESCUENTO;
 		
-		//Declaramos variables de la cantidad de entradas
+		//Declaramos variables de la cantidad de entradas infantiles
 		int entradasInf;
+		//Declaramos variables de cantidad de entradas adultas
 		int entradasAd;
+		//Declaramos variable del precio final de entradas infantiles
 		double totalInf;
+		//Declaramos variable del precio final de entradas adultos
 		double totalAD;
+		//Declaramos variable del importe final sin descuento
 		double end;
+		//Declaramos variable del importe final en caso de descuento
 		double descuento;
 		
 		//Le damos el valor a las constantes
